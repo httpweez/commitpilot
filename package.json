@@ -1,0 +1,23 @@
+{
+  "name": "commitpilot",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "commitpilot": "./bin/commitpilot.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@inquirer/prompts": "^7.0.0",
+    "chalk": "^5.0.0",
+    "execa": "^9.0.0",
+    "openai": "^6.41.0",
+    "ora": "^8.0.0"
+  }
+}
