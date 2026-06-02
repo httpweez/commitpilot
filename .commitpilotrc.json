@@ -1,1 +1,1 @@
-{ "provider": "openai" }
+{ "provider": "ollama", "model": "llama3.2" }
